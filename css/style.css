@@ -1,0 +1,88 @@
+#imagecarte {
+    background: url(../imgages/carte.png); 
+    background-size: cover;
+    border-width: 0px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+
+.mauvaisecase {
+    background:#fd0000cc;
+}
+
+.bonnecase {
+    background:#0ae902;
+}
+
+.bonneligne{
+    background: #ffa806;
+}
+
+.colonne{
+    background: #2456fb;
+}
+
+#compte{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td {
+    width:45px;
+    height:45px;
+    border: 1px solid black;
+}
+ 
+.cadre {
+    display: inline-block;
+    width: 450px;
+    margin: 1em;
+    font-size: 20px;
+}
+
+.image{
+    border-radius: 5px;
+}
+
+#emplacementCommentaires{
+    max-height: 300px;
+    overflow: hidden;
+}
+
+table{
+    margin:auto;
+}
+
+h1{
+    color: #000000;
+}
+
+#couleur{
+    background-color: #ff9616cc);
+    color: #ffffff;
+    padding: 3vh;
+    margin-bottom: 3vh;
+}
+
+.decalage{
+    padding-right: 2vh;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 2vh;
+}
+
+button{
+	width: 172px;
+	height: 38px;
+	border-radius: 30px;
+	background-size: 400%;
+	font-size: 15px;
+}
+
+*{
+    text-align: center;
+}
